@@ -1,0 +1,77 @@
+:root {
+    --bg-dark: #030303;
+    --dark-red: #710707;
+    --font-gold: #9d8665;
+    --font-gold-active: #9a826189;
+    --basic-white: #ffffff;
+    --font-family-R: 'Roboto', sans-serif;
+    --font-family-F: 'Forum', sans-serif;
+    --def-font-size: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family-R);
+    font-weight: 400;
+}
+
+.header {
+
+    background-color: var(--bg-dark);
+}
+
+.navbar {
+    margin-left: 240px;
+    margin-right: 240px;
+    height: 150px;
+    font-family: var(--font-family-F);
+    font-size: 31px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-dark);
+    padding: 10px 20px;
+}
+
+/* Left side (Home link) */
+.navbar-left .home-link {
+    display: flex;
+    align-items: center;
+    color: var(--basic-white);
+    text-decoration: none;
+}
+
+.logo {
+    height: 33px;
+    margin-right: 10px;
+}
+
+/* Right side (Nav links) */
+.navbar-right {
+ 
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar-right a {
+    font-weight: 200;
+    font-size: 22px;
+    color: var(--basic-white);
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 8px;
+    transition: background-color 0.3s;
+}
+
+.navbar-right a:hover {
+    color: var(--font-gold);
+}
+
+.navbar-right a.active {
+    color: var(--font-gold-active);
+}
