@@ -52,6 +52,7 @@
     color: var(--basic-white);
     text-decoration: none;
     font-size: 28px;
+    font-weight: 400;
 }
 
 .logo {
@@ -91,4 +92,39 @@
 .main-section1 {
     height: 842px;
     background-color: var(--bg-dark);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main-section2 {
+    height: 1266px;
+    /* background-color: var(--dark-red); */
+}
+.main-section3 {
+    height: 865px;
+    background-color: var(--bg-dark);
+}
+.main-section4 {
+    height: 1396px;
+    /* background-color: var(--dark-red); */
+}
+.main-section5 {
+    height: 2200px;
+    background-color: var(--bg-dark);
+}
+.main-section6 {
+    height: 2255px;
+    /* background-color: var(--dark-red); */
+}
+
+.footer {
+    height: 392px;
+    background-color: var(--bg-dark);
+    color: var(--basic-white);
+    font-family: var(--font-family-R);
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
