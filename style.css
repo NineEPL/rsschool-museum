@@ -97,22 +97,49 @@
     align-items: flex-end;
 }
 
+.section1-content {
+    width: 100%;
+    max-width: 1400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1-content .content-left {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section1-content .mona-lisa {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .main-section2 {
     height: 1266px;
     /* background-color: var(--dark-red); */
 }
+
 .main-section3 {
     height: 865px;
     background-color: var(--bg-dark);
 }
+
 .main-section4 {
     height: 1396px;
     /* background-color: var(--dark-red); */
 }
+
 .main-section5 {
     height: 2200px;
     background-color: var(--bg-dark);
 }
+
 .main-section6 {
     height: 2255px;
     /* background-color: var(--dark-red); */
