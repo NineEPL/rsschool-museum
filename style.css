@@ -426,10 +426,16 @@ html {
 .main-section5 {
     height: 2200px;
     background-color: var(--bg-dark);
+    font-family: var(--font-family-F);
+    color: var(--basic-white);
+    text-align: center;
 }
 
 .main-section6 {
     height: 2255px;
+    font-family: var(--font-family-F);
+    
+    text-align: center;
     /* background-color: var(--dark-red); */
 }
 
